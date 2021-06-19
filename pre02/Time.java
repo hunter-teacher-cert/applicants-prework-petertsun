@@ -13,7 +13,7 @@ public class Time {
 		System.out.println("The number of seconds since midnight: " + numberOfSecondsSinceMidnight + " seconds");
 		int numberOfSecondsRemainingInTheDay = 3600 * 24 - numberOfSecondsSinceMidnight;
 		System.out.println("The number of seconds remaining in the day: " + numberOfSecondsRemainingInTheDay + " seconds");
-		percentOfDayPassed = (float) numberOfSecondsSinceMidnight / (3600 * 24);
+		percentOfDayPassed = (float) numberOfSecondsSinceMidnight *100 / (3600 * 24);
 		System.out.println("The percentage of the day that has passed: " + percentOfDayPassed + " %");
 
 		hour = 19;
