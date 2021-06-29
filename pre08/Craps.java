@@ -41,7 +41,7 @@ public class Craps {
 			} else if (point == 7) {
 				return false;
 			} else {
-				while ((point != result) || (point == 7)){
+				while ((point != result) || (point != 7)){
 					result = shoot(2, 6);
 				}
 				if (point == result) {
