@@ -21,11 +21,11 @@ public class Methods {
 
 	public static boolean isTriangle(double lengthA, double lengthB, double lengthC) {
 
-		if (lengthA > (lengthB + lengthC)) {
+		if (lengthA >= (lengthB + lengthC)) {
 			return false;
-		} else if (lengthB > (lengthA + lengthC) ) {
+		} else if (lengthB >= (lengthA + lengthC) ) {
 			return false;
-		} else if (lengthC > (lengthA + lengthB) ) {
+		} else if (lengthC >= (lengthA + lengthB) ) {
 			return false;
 		} else {
 			return true;
